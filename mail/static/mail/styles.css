@@ -1,0 +1,40 @@
+textarea {
+    min-height: 400px;
+}
+
+.element-div {
+	border: 1px solid black;
+	box-sizing: border-box;
+	margin-bottom: 5px;
+	padding: 5px;
+	height: 40px;
+}
+
+.info-div {
+	float: left;
+	display: inline-block;
+}
+
+.sender-div {
+	margin-right: 10px;
+	font-weight: bold;
+	display: inline-block;
+}
+
+.subject-div {
+	display: inline-block;
+}
+
+.timestamp-div {
+	float: right;
+	display: inline-block;
+}
+
+#button1, #button2 {
+	display: inline-block;
+	margin-right: 5px;
+}
+
+#compose-body {
+	white-space: pre-wrap;
+}
